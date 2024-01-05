@@ -1,23 +1,38 @@
 /* Style de base */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #f7f7f7;
 }
 
-h1 {
-    color: #333;
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
-p {
-    color: #666;
+section {
+    margin-top: 20px;
 }
 
-/* Style pour un peu d'interaction */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
 
-h1:hover {
-    color: #ff5733; /* Changement de couleur au survol */
-    cursor: pointer; /* Changement du curseur au survol */
+/* Style pour les liens */
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
