@@ -1,0 +1,23 @@
+/* Style de base */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Style pour un peu d'interaction */
+
+h1:hover {
+    color: #ff5733; /* Changement de couleur au survol */
+    cursor: pointer; /* Changement du curseur au survol */
+}
